@@ -7,17 +7,11 @@ They can be loaded, unloaded, and reloaded at runtime - no server restart needed
 
 ****
 
----
-
-****
-
 Gradle Dependency
 
 ````groovy
 implementation 'com.github.TrySmp:Nimbus:VERSION'
 ````
-
-****
 
 Maven Dependency
 ````xml
@@ -27,10 +21,6 @@ Maven Dependency
     <version>Version</version>
 </dependency>
 ````
-
-****
-
----
 
 ****
 
@@ -58,7 +48,8 @@ public class ExampleModule extends Module {
 
 Nimbus automatically injects `plugin`, `name` and `version` into each module.
 
-We require a `module.yml` file in the root of each module JAR to provide metadata. Github is optional, but used for version checking if enabled.
+We require a `module.yml` file in the root of each module JAR to provide metadata.<br>
+Github is optional, but used for version checking if enabled.
 
 ```yml
 name: ExampleModule
