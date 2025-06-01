@@ -1,0 +1,7 @@
+name: Nimbus
+version: 1.0
+api-version: 1.21
+main: net.trysmp.nimbus.Nimbus
+
+commands:
+  nimbus:
