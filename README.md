@@ -14,7 +14,7 @@ They can be loaded, unloaded, and reloaded at runtime - no server restart needed
 Gradle Dependency
 
 ````groovy
-implementation 'com.github.TrySmp:Nimbus:VERSION'
+implementation 'net.trysmp:nimbus:VERSION'
 ````
 
 ****
@@ -22,9 +22,9 @@ implementation 'com.github.TrySmp:Nimbus:VERSION'
 Maven Dependency
 ````xml
 <dependency>
-    <groupId>com.github.TrySmp</groupId>
-    <artifactId>Nimbus</artifactId>
-    <version>Version</version>
+    <groupId>net.trysmp</groupId>
+    <artifactId>nimbus</artifactId>
+    <version>VERSION</version>
 </dependency>
 ````
 
